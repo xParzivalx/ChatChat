@@ -1,6 +1,7 @@
 'use client';
 
 import { Suspense } from 'react';
+import { UserButton } from '@clerk/nextjs';
 import { useAtom } from 'jotai';
 
 import { Brand } from '@/components/layout/brand';
@@ -25,6 +26,7 @@ export default function AppSidebar() {
                 <HistoryList conversations={conversations} setConversations={setConversations} />
             </div>
             <div className='flex flex-row items-center justify-between'>
+                <UserButton />
                 <Suspense>{isDesktop ? <SettingsDialog /> : <SettingsDrawer />}</Suspense>
                 <div className='flex flex-row items-center justify-center'>
                     <Suspense>
