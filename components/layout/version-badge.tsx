@@ -38,8 +38,7 @@ export const VersionBadge = () => {
                     <Avatar>
                         <AvatarImage src='/icon.svg' width={50} height={50} />
                     </Avatar>
-                    <p className='text-xl font-medium'>Chat Chat</p>
-                    <VersionLabel />
+                    <p className='text-xl font-medium'>NotasAI Chat</p>
                     {!isLatestVersion && (
                         <Link href='https://github.com/okisdev/ChatChat/releases/latest' target='_blank'>
                             <Badge variant='destructive'>{t('new_version_available')}</Badge>
