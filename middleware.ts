@@ -21,7 +21,7 @@ export default clerkMiddleware((auth, req) => {
   if (!isPublicRoute(req)) {
     const { userId } = auth();
     if (!userId) {
-      const signInUrl = new URL('https://legible-ox-61.accounts.dev/sign-in', req.url);
+      const signInUrl = new URL('https://accounts.notas.ai/sign-in', req.url);
       signInUrl.searchParams.set('redirect_url', req.url);
       return NextResponse.redirect(signInUrl);
     }
