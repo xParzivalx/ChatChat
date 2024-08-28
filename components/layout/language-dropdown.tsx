@@ -18,8 +18,8 @@ export const LanguageDropdown = () => {
         <DropdownMenu>
             <DropdownMenuTrigger className='flex items-center space-x-1 rounded-md px-2 py-1 outline-none transition duration-300 ease-in-out hover:bg-zinc-200/60 dark:hover:bg-neutral-700/60'>
                 <IoLanguage size={20} />
-                <span>{LanguageList.find((l) => l.id === locale)?.flag}</span>
-            </DropdownMenuTrigger>
+                <span>{LanguageList.find((l) => l.id === locale)?.name}</span>
+                </DropdownMenuTrigger>
             <DropdownMenuContent>
                 <DropdownMenuRadioGroup
                     value={locale}
@@ -30,7 +30,7 @@ export const LanguageDropdown = () => {
                     {LanguageList.map((lang) => {
                         return (
                             <DropdownMenuRadioItem key={lang.id} value={lang.id} className='cursor-pointer'>
-                                {lang.flag + ' ' + lang.name}
+                                {lang.name}
                             </DropdownMenuRadioItem>
                         );
                     })}
