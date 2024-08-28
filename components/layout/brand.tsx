@@ -6,9 +6,8 @@ export const Brand = () => {
     return (
         <div className='flex items-center justify-between px-3'>
             <Link href='/' className='text-lg font-semibold'>
-                Chat Chat
+                NotasAI Chat
             </Link>
-            <VersionBadge />
         </div>
     );
 };
