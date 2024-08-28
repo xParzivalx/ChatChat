@@ -1,7 +1,5 @@
 import Link from 'next/link';
 
-import { VersionBadge } from '@/components/layout/version-badge';
-
 export const Brand = () => {
     return (
         <div className='flex items-center justify-between px-3'>
