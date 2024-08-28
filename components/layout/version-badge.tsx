@@ -30,9 +30,6 @@ export const VersionBadge = () => {
 
     return (
         <Dialog>
-            <DialogTrigger>
-                <VersionLabel />
-            </DialogTrigger>
             <DialogContent className='flex w-full flex-col items-center justify-center space-y-6 dark:border-neutral-500 dark:bg-neutral-700'>
                 <div className='flex flex-col items-center space-y-1'>
                     <Avatar>
