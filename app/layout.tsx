@@ -11,7 +11,7 @@ const onest = Onest({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'NotasAI Chat',
-    description: 'NotasAI Chat - Unlock next-level conversations with AI',
+    description: 'NotasAI Chat - Desbloquea conversaciones de otro nivel con IA en español',
     manifest: '/manifest.json',
     appleWebApp: {
         capable: true,
@@ -24,7 +24,7 @@ export const viewport: Viewport = {
     width: 'device-width',
     initialScale: 1,
     minimumScale: 1,
-    userScalable: false,
+    userScalable: true,
 };
 
 export default function RootLayout({
