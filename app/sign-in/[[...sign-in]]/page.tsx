@@ -77,21 +77,6 @@ export default function SignInPage() {
           path="/sign-in"
           routing="path"
           appearance={{
-            variables: {
-              colorPrimary: "black",
-              colorText: "black",
-              colorBackground: "white",
-              colorInputBackground: "white",
-              colorInputText: "black",
-            },
-            elements: {
-              formButtonPrimary: {
-                backgroundColor: "black",
-                color: "white",
-                "&:hover": {
-                  backgroundColor: "#333",
-                },
-              },
               footer: { display: "none" },
             },
           }}
