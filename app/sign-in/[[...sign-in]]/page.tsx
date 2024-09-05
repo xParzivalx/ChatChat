@@ -77,6 +77,7 @@ export default function SignInPage() {
           path="/sign-in"
           routing="path"
           appearance={{
+            elements: {
               footer: { display: "none" },
             },
           }}
