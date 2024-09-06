@@ -1,5 +1,6 @@
 import { ClerkProvider } from '@clerk/nextjs';
 import { dark } from '@clerk/themes';
+import { esES } from "@clerk/localizations";
 import type { Metadata, Viewport } from 'next';
 import { Onest } from 'next/font/google';
 
@@ -37,7 +38,9 @@ export default function RootLayout({
 }>) {
     return (
         <ClerkProvider 
+        
         appearance={{
+            localization={esES},
             baseTheme: dark,
             elements: {
               footer: "hidden",
