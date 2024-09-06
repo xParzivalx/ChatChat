@@ -1,13 +1,13 @@
+import '@/styles/globals.css';
+import 'tippy.js/dist/tippy.css';
+
 import { ClerkProvider } from '@clerk/nextjs';
-import { dark } from '@clerk/themes';
 import { esES } from "@clerk/localizations";
+import { dark } from '@clerk/themes';
 import type { Metadata, Viewport } from 'next';
 import { Onest } from 'next/font/google';
 
 import RootProvider from '@/app/provider';
-
-import '@/styles/globals.css';
-import 'tippy.js/dist/tippy.css';
 
 const onest = Onest({ subsets: ['latin'] });
 
