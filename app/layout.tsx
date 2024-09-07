@@ -38,9 +38,8 @@ export default function RootLayout({
 }>) {
     return (
         <ClerkProvider 
-        
+        localization={esES}
         appearance={{
-            localization={esES},
             baseTheme: dark,
             elements: {
               footer: "hidden",
