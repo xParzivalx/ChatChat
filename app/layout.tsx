@@ -1,6 +1,6 @@
 import { ClerkProvider } from '@clerk/nextjs';
-import { dark } from '@clerk/themes';
 import { esES } from "@clerk/localizations";
+import { dark } from '@clerk/themes';
 import type { Metadata, Viewport } from 'next';
 import { Onest } from 'next/font/google';
 
@@ -12,7 +12,7 @@ import 'tippy.js/dist/tippy.css';
 const onest = Onest({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'Notas Chat',
+    title: 'NotasAI Chat',
     description: 'NotasAI Chat - Desbloquea conversaciones de otro nivel con IA en español',
     manifest: '/manifest.json',
     appleWebApp: {
@@ -38,9 +38,12 @@ export default function RootLayout({
 }>) {
     return (
         <ClerkProvider 
-        localization={{esES}}
+        localization={esES}
         appearance={{
             baseTheme: dark,
+            elements: {
+              footer: "hidden",
+            },
           }}>
             <html lang={locale} className={onest.className} suppressHydrationWarning>
                 <RootProvider>
