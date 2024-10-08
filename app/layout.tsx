@@ -12,7 +12,7 @@ import 'tippy.js/dist/tippy.css';
 const onest = Onest({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'NotasAI Chat',
+    title: 'Notas Chat',
     description: 'NotasAI Chat - Desbloquea conversaciones de otro nivel con IA en español',
     manifest: '/manifest.json',
     appleWebApp: {
@@ -38,12 +38,9 @@ export default function RootLayout({
 }>) {
     return (
         <ClerkProvider 
-        localization={esES}
+        localization={{esES}}
         appearance={{
             baseTheme: dark,
-            elements: {
-              footer: "hidden",
-            },
           }}>
             <html lang={locale} className={onest.className} suppressHydrationWarning>
                 <RootProvider>
