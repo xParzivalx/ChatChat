@@ -15,11 +15,11 @@ export const challenger = async (messages: CoreMessage[], model: SimpleModel, cu
 
     const openai = createOpenAI({
         apiKey: currentProviderSettings?.OpenAI?.apiKey ?? process.env.OPENAI_API_KEY ?? '',
-        // baseURL: currentProviderSettings?.OpenAI?.endpoint ?? process.env.OPENAI_API_ENDPOINT ?? 'https://api.openai.com/v1',
+        baseURL: currentProviderSettings?.OpenAI?.endpoint ?? process.env.OPENAI_API_ENDPOINT ?? 'https://api.openai.com/v1',
     });
 
     return await generateObject({
-        model: openai.chat(model.model_id ?? 'gpt-3.5-turbo'),
+        model: openai.chat(model.model_id ?? 'ft:gpt-4o-mini-2024-07-18:personal:prueba-1:AFr1ffw3'),
         system: challengerPrompt,
         messages,
         schema: challengerSchema,
