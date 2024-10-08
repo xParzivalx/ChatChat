@@ -1,6 +1,7 @@
 import { Model } from '@/types/model';
 
 export type OpenAIModelId =
+    | 'ft:gpt-4o-mini-2024-07-18:personal:prueba-1:AFr1ffw3'
     | 'gpt-4o'
     | 'gpt-4o-2024-05-13'
     | 'gpt-4'
@@ -16,6 +17,7 @@ export type OpenAIModelId =
     | 'gpt-3.5-turbo-1106'
     | 'gpt-3.5-turbo-0125';
 export type OpenAIModelName =
+    | 'GPT-NotasAI'
     | 'GPT-4o'
     | 'GPT-4o 2024-05-13'
     | 'GPT-4'
@@ -32,6 +34,14 @@ export type OpenAIModelName =
     | 'GPT-3.5 Turbo 0125';
 
 export const model: Model[] = [
+    {
+        id: 'ft:gpt-4o-mini-2024-07-18:personal:prueba-1:AFr1ffw3',
+        name: 'GPT-NotasAI',
+        maxInputTokens: null,
+        maxOutputTokens: 4096,
+        maxTokens: 128000,
+        price: 18.0,
+    },
     {
         id: 'gpt-4o',
         name: 'GPT-4o',
