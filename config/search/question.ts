@@ -1779,6 +1779,7 @@ export const questions: {
         value: string;
     }[];
 } = {
+    es: es_questions,
     en: en_questions,
     'zh-CN': zh_CN_questions,
     'zh-HK': zh_HK_questions,
