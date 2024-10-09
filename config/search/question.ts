@@ -1,5 +1,256 @@
 import { TLocale } from '@/types/i18n';
 
+export const es_questions = [
+    {
+        question: '¿Quién es el presidente de los Estados Unidos?',
+        value: '¿Quién es el presidente de los Estados Unidos?',
+    },
+    {
+        question: '¿Cuántos planetas hay en el sistema solar?',
+        value: '¿Cuántos planetas hay en el sistema solar?',
+    },
+    {
+        question: '¿Cuál es el océano más grande del mundo?',
+        value: '¿Cuál es el océano más grande del mundo?',
+    },
+    {
+        question: '¿Quién inventó el teléfono?',
+        value: '¿Quién inventó el teléfono?',
+    },
+    {
+        question: '¿Cuántos lados tiene un cuadrado?',
+        value: '¿Cuántos lados tiene un cuadrado?',
+    },
+    {
+        question: '¿Cuál es la capital de Australia?',
+        value: '¿Cuál es la capital de Australia?',
+    },
+    {
+        question: '¿Quién escribió la novela "Matar a un ruiseñor"?',
+        value: '¿Quién escribió la novela "Matar a un ruiseñor"?',
+    },
+    {
+        question: '¿Cuántos huesos hay en el cuerpo humano?',
+        value: '¿Cuántos huesos hay en el cuerpo humano?',
+    },
+    {
+        question: '¿Cuál es el mamífero más grande del mundo?',
+        value: '¿Cuál es el mamífero más grande del mundo?',
+    },
+    {
+        question: '¿Quién fue el primer presidente de los Estados Unidos?',
+        value: '¿Quién fue el primer presidente de los Estados Unidos?',
+    },
+    {
+        question: '¿Cuántos colores hay en un arcoíris?',
+        value: '¿Cuántos colores hay en un arcoíris?',
+    },
+    {
+        question: '¿Cuál es el planeta más grande del sistema solar?',
+        value: '¿Cuál es el planeta más grande del sistema solar?',
+    },
+    {
+        question: '¿Quién es el fundador de Apple Inc.?',
+        value: '¿Quién es el fundador de Apple Inc.?',
+    },
+    {
+        question: '¿Cuántos anillos hay en la bandera olímpica?',
+        value: '¿Cuántos anillos hay en la bandera olímpica?',
+    },
+    {
+        question: '¿Cuál es el continente más grande del mundo?',
+        value: '¿Cuál es el continente más grande del mundo?',
+    },
+    {
+        question: '¿Quién es el autor de la serie de libros "Harry Potter"?',
+        value: '¿Quién es el autor de la serie de libros "Harry Potter"?',
+    },
+    {
+        question: '¿Cuántos días hay en un año?',
+        value: '¿Cuántos días hay en un año?',
+    },
+    {
+        question: '¿Cuál es el río más largo del mundo?',
+        value: '¿Cuál es el río más largo del mundo?',
+    },
+    {
+        question: '¿Quién es el fundador de Microsoft?',
+        value: '¿Quién es el fundador de Microsoft?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar tienen anillos?',
+        value: '¿Cuántos planetas en el sistema solar tienen anillos?',
+    },
+    {
+        question: '¿Cuál es la montaña más alta del mundo?',
+        value: '¿Cuál es la montaña más alta del mundo?',
+    },
+    {
+        question: '¿Quién fue la primera persona en caminar sobre la Luna?',
+        value: '¿Quién fue la primera persona en caminar sobre la Luna?',
+    },
+    {
+        question: '¿Cuántos lados tiene un hexágono?',
+        value: '¿Cuántos lados tiene un hexágono?',
+    },
+    {
+        question: '¿Cuál es la capital de Canadá?',
+        value: '¿Cuál es la capital de Canadá?',
+    },
+    {
+        question: '¿Quién es el autor de la novela "1984"?',
+        value: '¿Quién es el autor de la novela "1984"?',
+    },
+    {
+        question: '¿Cuántos planetas hay en la galaxia Vía Láctea?',
+        value: '¿Cuántos planetas hay en la galaxia Vía Láctea?',
+    },
+    {
+        question: '¿Cuál es el océano más grande de la Tierra?',
+        value: '¿Cuál es el océano más grande de la Tierra?',
+    },
+    {
+        question: '¿Quién es el fundador de Amazon?',
+        value: '¿Quién es el fundador de Amazon?',
+    },
+    {
+        question: '¿Cuántos lados tiene un pentágono?',
+        value: '¿Cuántos lados tiene un pentágono?',
+    },
+    {
+        question: '¿Cuál es la moneda utilizada en el Reino Unido?',
+        value: '¿Cuál es la moneda utilizada en el Reino Unido?',
+    },
+    {
+        question: '¿Quién es el autor de la serie de libros "El Señor de los Anillos"?',
+        value: '¿Quién es el autor de la serie de libros "El Señor de los Anillos"?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar están clasificados como "planetas enanos"?',
+        value: '¿Cuántos planetas en el sistema solar están clasificados como "planetas enanos"?',
+    },
+    {
+        question: '¿Cuál es el mamífero más grande del océano?',
+        value: '¿Cuál es el mamífero más grande del océano?',
+    },
+    {
+        question: '¿Quién es el fundador de Tesla?',
+        value: '¿Quién es el fundador de Tesla?',
+    },
+    {
+        question: '¿Cuántos lados tiene un triángulo?',
+        value: '¿Cuántos lados tiene un triángulo?',
+    },
+    {
+        question: '¿Cuál es la capital de Francia?',
+        value: '¿Cuál es la capital de Francia?',
+    },
+    {
+        question: '¿Quién es el autor de la novela "Orgullo y prejuicio"?',
+        value: '¿Quién es el autor de la novela "Orgullo y prejuicio"?',
+    },
+    {
+        question: '¿Cuántos planetas hay en el sistema solar?',
+        value: '¿Cuántos planetas hay en el sistema solar?',
+    },
+    {
+        question: '¿Cuál es el animal más grande de la Tierra?',
+        value: '¿Cuál es el animal más grande de la Tierra?',
+    },
+    {
+        question: '¿Quién es el fundador de Google?',
+        value: '¿Quién es el fundador de Google?',
+    },
+    {
+        question: '¿Cuántas capas tiene la piel humana?',
+        value: '¿Cuántas capas tiene la piel humana?',
+    },
+    {
+        question: '¿Cuál es la capital de Italia?',
+        value: '¿Cuál es la capital de Italia?',
+    },
+    {
+        question: '¿Quién es el autor de la novela "El gran Gatsby"?',
+        value: '¿Quién es el autor de la novela "El gran Gatsby"?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar se consideran "planetas terrestres"?',
+        value: '¿Cuántos planetas en el sistema solar se consideran "planetas terrestres"?',
+    },
+    {
+        question: '¿Cuál es el desierto más grande del mundo?',
+        value: '¿Cuál es el desierto más grande del mundo?',
+    },
+    {
+        question: '¿Quién es el fundador de Coca-Cola?',
+        value: '¿Quién es el fundador de Coca-Cola?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar tienen lunas?',
+        value: '¿Cuántos planetas en el sistema solar tienen lunas?',
+    },
+    {
+        question: '¿Cuál es la capital de Japón?',
+        value: '¿Cuál es la capital de Japón?',
+    },
+    {
+        question: '¿Quién es el autor de la novela "El guardián entre el centeno"?',
+        value: '¿Quién es el autor de la novela "El guardián entre el centeno"?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar se consideran "gigantes gaseosos"?',
+        value: '¿Cuántos planetas en el sistema solar se consideran "gigantes gaseosos"?',
+    },
+    {
+        question: '¿Cuál es el continente más grande por área terrestre?',
+        value: '¿Cuál es el continente más grande por área terrestre?',
+    },
+    {
+        question: '¿Quién es el fundador de Nike?',
+        value: '¿Quién es el fundador de Nike?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar están clasificados como "planetas interiores"?',
+        value: '¿Cuántos planetas en el sistema solar están clasificados como "planetas interiores"?',
+    },
+    {
+        question: '¿Cuál es la capital de Alemania?',
+        value: '¿Cuál es la capital de Alemania?',
+    },
+    {
+        question: '¿Quién es el autor de la novela "Un mundo feliz"?',
+        value: '¿Quién es el autor de la novela "Un mundo feliz"?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar están clasificados como "planetas exteriores"?',
+        value: '¿Cuántos planetas en el sistema solar están clasificados como "planetas exteriores"?',
+    },
+    {
+        question: '¿Cuál es el río más largo de África?',
+        value: '¿Cuál es el río más largo de África?',
+    },
+    {
+        question: "¿Quién es el fundador de McDonald's?",
+        value: "¿Quién es el fundador de McDonald's?",
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar están clasificados como "planetas rocosos"?',
+        value: '¿Cuántos planetas en el sistema solar están clasificados como "planetas rocosos"?',
+    },
+    {
+        question: '¿Cuál es la capital de España?',
+        value: '¿Cuál es la capital de España?',
+    },
+    {
+        question: '¿Quién es el autor de la novela "Cien años de soledad"?',
+        value: '¿Quién es el autor de la novela "Cien años de soledad"?',
+    },
+    {
+        question: '¿Cuántos planetas en el sistema solar tienen atmósfera?',
+        value: '¿Cuántos planetas en el sistema solar tienen atmósfera?',
+    },
+];
+
 export const en_questions = [
     {
         question: 'Who is the president of the United States?',
