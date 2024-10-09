@@ -78,7 +78,6 @@
         @apply bg-background text-foreground;
     }
 }
-
 @font-face {
     font-family: 'Apple Garamond';
     src: url('/fonts/AppleGaramond.ttf') format('truetype');
